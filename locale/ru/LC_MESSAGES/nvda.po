@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Helper Scripts\n"
+"POT-Creation-Date: 2022-05-01 19:20+0800\n"
+"PO-Revision-Date: 2022-05-01 19:21+0800\n"
+"Last-Translator: Kvark <kvark128@yandex.ru>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: ../../../globalPlugins\n"
+
+#: ../../../globalPlugins/HelperScripts.py:51
+msgid "Helper Scripts"
+msgstr "Helper Scripts"
+
+#: ../../../globalPlugins/HelperScripts.py:97
+msgid "Save screenshot as..."
+msgstr "Сохранить скриншот как..."
+
+#: ../../../globalPlugins/HelperScripts.py:103
+msgid "Copies the last spoken phrase to the clipboard"
+msgstr "Копирует последнюю произнесённую фразу в буфер обмена"
+
+#: ../../../globalPlugins/HelperScripts.py:111
+msgid "Shows the NVDA log viewer"
+msgstr "Вызывает просмотрщик журнала NVDA"
+
+#: ../../../globalPlugins/HelperScripts.py:116
+msgid ""
+"Reports the name and version of the application. Double-click to copy this "
+"information to the clipboard"
+msgstr ""
+"Сообщает название и версию приложения. Двойное нажатие копирует эту "
+"информацию в буфер обмена"
+
+#: ../../../globalPlugins/HelperScripts.py:123
+msgid "No application information"
+msgstr "Нет информации о приложении"
+
+#: ../../../globalPlugins/HelperScripts.py:130
+#: ../../../globalPlugins/HelperScripts.py:143
+#: ../../../globalPlugins/HelperScripts.py:308
+msgid "Copied to clipboard"
+msgstr "Скопировано в буфер обмена"
+
+#: ../../../globalPlugins/HelperScripts.py:132
+msgid ""
+"Reports value of the current navigator object. When you double-press, copy "
+"this value to clipboard"
+msgstr ""
+"Сообщает значение текущего объекта навигатора. При двойном нажатии копирует "
+"это значение в буфер обмена"
+
+#: ../../../globalPlugins/HelperScripts.py:136
+msgid "No value"
+msgstr "Нет значения"
+
+#: ../../../globalPlugins/HelperScripts.py:145
+msgid "Toggles the level of punctuation back"
+msgstr "Переключает уровень пунктуации в обратном направлении"
+
+#: ../../../globalPlugins/HelperScripts.py:156
+#, python-format
+msgid "symbol level %s"
+msgstr "уровень пунктуации %s"
+
+#: ../../../globalPlugins/HelperScripts.py:158
+msgid ""
+"Opens a dialog containing the text of the currently focused window for easy "
+"review"
+msgstr ""
+"Открывает диалоговое окно, содержащее текст текущего окна для удобного "
+"просмотра"
+
+#: ../../../globalPlugins/HelperScripts.py:170
+#: ../../../globalPlugins/HelperScripts.py:183
+#: ../../../globalPlugins/HelperScripts.py:209
+msgid "No text"
+msgstr "Нет текста"
+
+#: ../../../globalPlugins/HelperScripts.py:173
+msgid "Virtual Viewer"
+msgstr "Виртуальный просмотрщик"
+
+#: ../../../globalPlugins/HelperScripts.py:175
+msgid ""
+"Reports the number of characters and words in selected text or text from the "
+"clipboard. Double pressing reports the text itself. Triple pressing opens a "
+"separate window with that text"
+msgstr ""
+"Сообщает число символов и слов в выделенном тексте или в тексте из буфера "
+"обмена. При двойном нажатии читает этот текст. Тройное нажатие открывает его "
+"в отдельном окне"
+
+#: ../../../globalPlugins/HelperScripts.py:178
+msgid "selection"
+msgstr "выделено"
+
+#: ../../../globalPlugins/HelperScripts.py:181
+msgid "clipboard"
+msgstr "буфер обмена"
+
+#: ../../../globalPlugins/HelperScripts.py:187
+msgid "{}/{} {}"
+msgstr "{}/{} {}"
+
+#: ../../../globalPlugins/HelperScripts.py:191
+msgid "Text"
+msgstr "Текст"
+
+#: ../../../globalPlugins/HelperScripts.py:193
+msgid ""
+"Toggles between the speech modes of off and talk. When set to off NVDA will "
+"not speak anything. If talk then NVDA wil just speak normally."
+msgstr ""
+"Переключает режимы речи между выключено и речь. Если выключено, NVDA будет "
+"всегда молчать. Если речь, то NVDA будет говорить как обычно"
+
+#: ../../../globalPlugins/HelperScripts.py:198
+msgid "talk"
+msgstr "речь"
+
+#: ../../../globalPlugins/HelperScripts.py:200
+msgid "off"
+msgstr "выключено"
+
+#: ../../../globalPlugins/HelperScripts.py:203
+msgid ""
+"Reports clipboard text. Double pressing to read it for the characters. "
+"Triple pressing opens a separate window with this text"
+msgstr ""
+"Сообщает текст буфера обмена. При двойном нажатии читает его по символам. "
+"Тройное нажатие открывает этот текст в отдельном окне"
+
+#: ../../../globalPlugins/HelperScripts.py:218
+msgid "Clipboard text"
+msgstr "Текст буфера обмена"
+
+#: ../../../globalPlugins/HelperScripts.py:220
+msgid "Makes click in the point of review cursor"
+msgstr "Производит клик левой кнопкой мыши в позиции просмотрового курсора"
+
+#: ../../../globalPlugins/HelperScripts.py:226
+msgid "no point"
+msgstr "нет точки"
+
+#: ../../../globalPlugins/HelperScripts.py:233
+msgid "Report the selected text"
+msgstr "Сообщает выделенный текст"
+
+#: ../../../globalPlugins/HelperScripts.py:237
+msgid "No selection"
+msgstr "Нет выделения"
+
+#: ../../../globalPlugins/HelperScripts.py:242
+msgid "Makes a screenshot of the current Navigator object"
+msgstr "Делает скриншот текущего объекта навигатора"
+
+#: ../../../globalPlugins/HelperScripts.py:248
+msgid "off screen"
+msgstr "вне экрана"
+
+#: ../../../globalPlugins/HelperScripts.py:254
+msgid "object has no location"
+msgstr "объект не имеет расположения"
+
+#: ../../../globalPlugins/HelperScripts.py:264
+msgid "Reporting position of the element in the group"
+msgstr "Сообщает позицию элемента в группе"
+
+#: ../../../globalPlugins/HelperScripts.py:270
+#, python-brace-format
+msgid "{0} of {1}"
+msgstr "{0} из {1}"
+
+#: ../../../globalPlugins/HelperScripts.py:272
+msgid "no position"
+msgstr "нет позиции"
+
+#: ../../../globalPlugins/HelperScripts.py:274
+msgid "Selects or copies the text under the review cursor"
+msgstr "Выделяет или копирует текст под просмотровым курсором"
+
+#: ../../../globalPlugins/HelperScripts.py:280
+msgid "Start marked"
+msgstr "Начало фрагмента"
+
+#: ../../../globalPlugins/HelperScripts.py:310
+msgid "Unable to copy"
+msgstr "Копирование не удалось"
+
+#: ../../../globalPlugins/HelperScripts.py:314
+msgid "Reports the last value of the progress bar"
+msgstr "Сообщает последнее значение линейки прогресса"
+
+#: ../../../globalPlugins/HelperScripts.py:318
+msgid "Windows sleep mode"
+msgstr "Спящий режим Windows"
+
+#: ../../../globalPlugins/HelperScripts.py:323
+msgid "Reports last tooltip"
+msgstr "Сообщает последнюю всплывающую подсказку"
+
+#: ../../../globalPlugins/HelperScripts.py:326
+msgid "No tooltip"
+msgstr "Нет всплывающей подсказки"
