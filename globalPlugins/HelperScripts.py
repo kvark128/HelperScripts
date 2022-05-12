@@ -149,7 +149,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			if level < curLevel:
 				break
 		else:
-			level = characterProcessing.SYMLVL_ALL
+			level = characterProcessing.SymbolLevel.ALL
 
 		name = characterProcessing.SPEECH_SYMBOL_LEVEL_LABELS[level]
 		config.conf["speech"]["symbolLevel"] = level
