@@ -21,6 +21,7 @@ from speech import speech
 from scriptHandler import script
 
 addonHandler.initTranslation()
+SPEECH_BUFFER_MAX_LENGTH = 300
 
 class TextWindow(wx.Frame):
 
@@ -54,14 +55,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		super(GlobalPlugin, self).__init__()
 		self._lastProgressBarValue = "0%"
 		self._lastTooltip = None
-		self._lastPhrase = ""
+		self._speechBuffer = []
 		speech.speak = self._speechDecorator(speech.speak)
 
 	def _speechDecorator(self, speakFunc):
 		def wrapper(speechSequence, *args, **kwargs):
 			if isinstance(speechSequence, collections.abc.Generator):
 				speechSequence = [i for i in speechSequence]
-			self._lastPhrase = " ".join([item for item in speechSequence if isinstance(item, str)])
+			speakText = " ".join([s for s in speechSequence if isinstance(s, str)])
+			if len(self._speechBuffer) >= SPEECH_BUFFER_MAX_LENGTH:
+				del self._speechBuffer[0]
+			self._speechBuffer.append(speakText)
 			return speakFunc(speechSequence, *args, **kwargs)
 		return wrapper
 
@@ -102,7 +106,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	@script(description=_("Copies the last spoken phrase to the clipboard"))
 	def script_copyPhrase(self, gesture):
-		text = self._lastPhrase
+		if len(self._speechBuffer) == 0:
+			return
+		text = self._speechBuffer[-1]
 		if scriptHandler.getLastScriptRepeatCount() == 0:
 			text = text.strip()
 		api.copyToClip(text)
@@ -188,7 +194,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif scriptHandler.getLastScriptRepeatCount() == 1:
 			ui.message(text)
 		else:
-			TextWindow(text, _("Text"), False)
+			TextWindow(text, _("Text"), readOnly=False)
 
 	@script(description=_("Toggles between the speech modes of off and talk. When set to off NVDA will not speak anything. If talk then NVDA wil just speak normally."))
 	def script_speechMode(self, gesture):
@@ -215,7 +221,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif repeat == 1:
 			speech.speakSpelling(text)
 		elif repeat == 2:
-			TextWindow(text, _("Clipboard text"), False)
+			TextWindow(text, _("Clipboard text"), readOnly=False)
 
 	@script(description=_("Makes click in the point of review cursor"))
 	def script_click(self, gesture):
@@ -326,3 +332,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_("No tooltip"))
 			return
 		ui.message(self._lastTooltip)
+
+	@script(description=_("Shows Speech Viewer"))
+	def script_speechViewer(self, gesture):
+		text = "\n".join(self._speechBuffer)
+		TextWindow(text, _("Speech Viewer"), insertionPoint=-1)
