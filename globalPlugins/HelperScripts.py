@@ -236,14 +236,17 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
 		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
 
-	@script(description=_("Report the selected text"))
+	@script(description=_("Reports a selected text. Double pressing to read it for the characters"))
 	def script_currentSelection(self, gesture):
 		text = self.selectedText
 		if text is None:
 			ui.message(_("No selection"))
 			return
 
-		ui.message(text)
+		if scriptHandler.getLastScriptRepeatCount() == 0:
+			ui.message(text)
+		else:
+			speech.speakSpelling(text)
 
 	@script(description=_("Makes a screenshot of the current Navigator object"))
 	def script_screenshot(self, gesture):

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Helper Scripts\n"
-"POT-Creation-Date: 2022-05-20 03:39+0800\n"
-"PO-Revision-Date: 2022-05-20 03:41+0800\n"
+"POT-Creation-Date: 2022-05-29 08:45+0800\n"
+"PO-Revision-Date: 2022-05-29 08:49+0800\n"
 "Last-Translator: Kvark <kvark128@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -45,7 +45,7 @@ msgstr "Нет информации о приложении"
 
 #: ../../../globalPlugins/HelperScripts.py:136
 #: ../../../globalPlugins/HelperScripts.py:149
-#: ../../../globalPlugins/HelperScripts.py:314
+#: ../../../globalPlugins/HelperScripts.py:317
 msgid "Copied to clipboard"
 msgstr "Скопировано в буфер обмена"
 
@@ -151,70 +151,73 @@ msgid "no point"
 msgstr "нет точки"
 
 #: ../../../globalPlugins/HelperScripts.py:239
-msgid "Report the selected text"
-msgstr "Сообщает выделенный текст"
+msgid "Reports a selected text. Double pressing to read it for the characters"
+msgstr "Сообщает выделенный текст. При двойном нажатии читает его по символам"
 
 #: ../../../globalPlugins/HelperScripts.py:243
 msgid "No selection"
 msgstr "Нет выделения"
 
-#: ../../../globalPlugins/HelperScripts.py:248
+#: ../../../globalPlugins/HelperScripts.py:251
 msgid "Makes a screenshot of the current Navigator object"
 msgstr "Делает скриншот текущего объекта навигатора"
 
-#: ../../../globalPlugins/HelperScripts.py:254
+#: ../../../globalPlugins/HelperScripts.py:257
 msgid "off screen"
 msgstr "вне экрана"
 
-#: ../../../globalPlugins/HelperScripts.py:260
+#: ../../../globalPlugins/HelperScripts.py:263
 msgid "object has no location"
 msgstr "объект не имеет расположения"
 
-#: ../../../globalPlugins/HelperScripts.py:270
+#: ../../../globalPlugins/HelperScripts.py:273
 msgid "Reporting position of the element in the group"
 msgstr "Сообщает позицию элемента в группе"
 
-#: ../../../globalPlugins/HelperScripts.py:276
+#: ../../../globalPlugins/HelperScripts.py:279
 #, python-brace-format
 msgid "{0} of {1}"
 msgstr "{0} из {1}"
 
-#: ../../../globalPlugins/HelperScripts.py:278
+#: ../../../globalPlugins/HelperScripts.py:281
 msgid "no position"
 msgstr "нет позиции"
 
-#: ../../../globalPlugins/HelperScripts.py:280
+#: ../../../globalPlugins/HelperScripts.py:283
 msgid "Selects or copies the text under the review cursor"
 msgstr "Выделяет или копирует текст под просмотровым курсором"
 
-#: ../../../globalPlugins/HelperScripts.py:286
+#: ../../../globalPlugins/HelperScripts.py:289
 msgid "Start marked"
 msgstr "Начало фрагмента"
 
-#: ../../../globalPlugins/HelperScripts.py:316
+#: ../../../globalPlugins/HelperScripts.py:319
 msgid "Unable to copy"
 msgstr "Копирование не удалось"
 
-#: ../../../globalPlugins/HelperScripts.py:320
+#: ../../../globalPlugins/HelperScripts.py:323
 msgid "Reports the last value of the progress bar"
 msgstr "Сообщает последнее значение линейки прогресса"
 
-#: ../../../globalPlugins/HelperScripts.py:324
+#: ../../../globalPlugins/HelperScripts.py:327
 msgid "Windows sleep mode"
 msgstr "Спящий режим Windows"
 
-#: ../../../globalPlugins/HelperScripts.py:329
+#: ../../../globalPlugins/HelperScripts.py:332
 msgid "Reports last tooltip"
 msgstr "Сообщает последнюю всплывающую подсказку"
 
-#: ../../../globalPlugins/HelperScripts.py:332
+#: ../../../globalPlugins/HelperScripts.py:335
 msgid "No tooltip"
 msgstr "Нет всплывающей подсказки"
 
-#: ../../../globalPlugins/HelperScripts.py:336
+#: ../../../globalPlugins/HelperScripts.py:339
 msgid "Shows Speech Viewer"
 msgstr "Показывает просмотрщик речи"
 
-#: ../../../globalPlugins/HelperScripts.py:339
+#: ../../../globalPlugins/HelperScripts.py:342
 msgid "Speech Viewer"
 msgstr "Просмотрщик речи"
+
+#~ msgid "Report the selected text"
+#~ msgstr "Сообщает выделенный текст"
