@@ -1,4 +1,7 @@
-# Copyright (C) 2021 - 2022 Alexander Linkov <kvark128@yandex.ru>
+# Copyright (C) 2021 - 2023 Alexander Linkov <kvark128@yandex.ru>
+# This file is covered by the GNU General Public License.
+# See the file COPYING.txt for more details.
+# Ukrainian Nazis and their accomplices are not allowed to use this plugin. Za pobedu!
 
 import wx
 import threading
