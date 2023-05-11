@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yardımcı Komutlar\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2023-05-12 04:56+0800\n"
+"PO-Revision-Date: 2023-05-12 04:58+0800\n"
+"Last-Translator: Kvark <kvark128@yandex.ru>\n"
+"Language-Team: Umut KORKMAZ <umutkork@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../../globalPlugins\n"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: addon\globalPlugins\HelperScripts.py:55 buildVars.py:23
+msgid "Helper Scripts"
+msgstr "Yardımcı Komutlar"
+
+#: addon\globalPlugins\HelperScripts.py:104
+msgid "Save screenshot as..."
+msgstr "Ekran görüntüsünü farklı kaydet..."
+
+#: addon\globalPlugins\HelperScripts.py:110
+msgid "Copies the last spoken phrase to the clipboard"
+msgstr "Son konuşulanı panoya kopyalar"
+
+#: addon\globalPlugins\HelperScripts.py:120
+msgid "Shows the NVDA log viewer"
+msgstr "NVDA günlük görüntüleyicisini gösterir"
+
+#: addon\globalPlugins\HelperScripts.py:125
+msgid ""
+"Reports the name and version of the application. Double-click to copy this "
+"information to the clipboard"
+msgstr ""
+"Uygulamanın adını ve sürümünü bildirir. Çift tıklama bu bilgiyi panoya "
+"kopyalar"
+
+#: addon\globalPlugins\HelperScripts.py:132
+msgid "No application information"
+msgstr "Uygulama bilgisi yok"
+
+#: addon\globalPlugins\HelperScripts.py:139
+#: addon\globalPlugins\HelperScripts.py:152
+#: addon\globalPlugins\HelperScripts.py:320
+msgid "Copied to clipboard"
+msgstr "Panoya kopyalandı"
+
+#: addon\globalPlugins\HelperScripts.py:141
+msgid ""
+"Reports value of the current navigator object. When you double-press, copy "
+"this value to clipboard"
+msgstr ""
+"Geçerli gezgin nesnesinin değerini bildirir. Çift tıklandığında bu değeri "
+"panoya kopyalar"
+
+#: addon\globalPlugins\HelperScripts.py:145
+msgid "No value"
+msgstr "Değer yok"
+
+#: addon\globalPlugins\HelperScripts.py:154
+msgid "Toggles the level of punctuation back"
+msgstr "Noktalama işaretlerinin seviyesini ters yönde değiştirir"
+
+#: addon\globalPlugins\HelperScripts.py:165
+#, python-format
+msgid "symbol level %s"
+msgstr "noktalama seviyesi %s"
+
+#: addon\globalPlugins\HelperScripts.py:167
+msgid ""
+"Opens a dialog containing the text of the currently focused window for easy "
+"review"
+msgstr ""
+"Kolay inceleme için o anda odaklanılan pencerenin metnini içeren bir "
+"iletişim kutusu açar"
+
+#: addon\globalPlugins\HelperScripts.py:179
+#: addon\globalPlugins\HelperScripts.py:192
+#: addon\globalPlugins\HelperScripts.py:218
+msgid "No text"
+msgstr "Metin yok"
+
+#: addon\globalPlugins\HelperScripts.py:182
+msgid "Virtual Viewer"
+msgstr "Sanal Görüntüleyici"
+
+#: addon\globalPlugins\HelperScripts.py:184
+msgid ""
+"Reports the number of characters and words in selected text or text from the "
+"clipboard. Double pressing reports the text itself. Triple pressing opens a "
+"separate window with that text"
+msgstr ""
+"Seçilen metin veya pano metnindeki karakter ve sözcük sayısını bildirir. "
+"Çift tıklandığında bu metni okur. Üç tıklama ayrı bir pencerede açar"
+
+#: addon\globalPlugins\HelperScripts.py:187
+msgid "selection"
+msgstr "seçili"
+
+#: addon\globalPlugins\HelperScripts.py:190
+msgid "clipboard"
+msgstr "pano"
+
+#: addon\globalPlugins\HelperScripts.py:196
+msgid "{}/{} {}"
+msgstr "{}/{} {}"
+
+#: addon\globalPlugins\HelperScripts.py:200
+msgid "Text"
+msgstr "Metin"
+
+#: addon\globalPlugins\HelperScripts.py:202
+msgid ""
+"Toggles between the speech modes of off and talk. When set to off NVDA will "
+"not speak anything. If talk then NVDA wil just speak normally."
+msgstr ""
+"Konuşma modunu kapalı ve konuşma arasında değiştirir. Devre dışı "
+"bırakılırsa, NVDA her zaman sessiz olacaktır. Konuşma seçilirse, NVDA her "
+"zamanki gibi konuşacaktır."
+
+#: addon\globalPlugins\HelperScripts.py:207
+msgid "talk"
+msgstr "konuşma"
+
+#: addon\globalPlugins\HelperScripts.py:209
+msgid "off"
+msgstr "kapalı"
+
+#: addon\globalPlugins\HelperScripts.py:212
+msgid ""
+"Reports clipboard text. Double pressing to read it for the characters. "
+"Triple pressing opens a separate window with this text"
+msgstr ""
+"Pano metnini seslendirir. Çift tıklandığında karakter karakter okur. Üç kez "
+"tıklama bu metni ayrı bir pencerede açar"
+
+#: addon\globalPlugins\HelperScripts.py:227
+msgid "Clipboard text"
+msgstr "Pano metni"
+
+#: addon\globalPlugins\HelperScripts.py:229
+msgid "Makes click in the point of review cursor"
+msgstr "İnceleme imlecinin konumunda sol fare tıklaması gerçekleştirir"
+
+#: addon\globalPlugins\HelperScripts.py:235
+msgid "no point"
+msgstr "nokta yok"
+
+#: addon\globalPlugins\HelperScripts.py:242
+msgid "Reports a selected text. Double pressing to read it for the characters"
+msgstr "Seçilen metni seslendirir. Çift tıklandığında karakter karakter okur"
+
+#: addon\globalPlugins\HelperScripts.py:246
+msgid "No selection"
+msgstr "Seçim yok"
+
+#: addon\globalPlugins\HelperScripts.py:254
+msgid "Makes a screenshot of the current Navigator object"
+msgstr "Geçerli gezgin nesnesinin ekran görüntüsünü alır"
+
+#: addon\globalPlugins\HelperScripts.py:260
+msgid "off screen"
+msgstr "ekran dışı"
+
+#: addon\globalPlugins\HelperScripts.py:266
+msgid "object has no location"
+msgstr "nesnenin konumu yok"
+
+#: addon\globalPlugins\HelperScripts.py:276
+msgid "Reporting position of the element in the group"
+msgstr "Gruptaki bir öğenin konumunu bildirir"
+
+#: addon\globalPlugins\HelperScripts.py:282
+#, python-brace-format
+msgid "{0} of {1}"
+msgstr "{0} bölü {1}"
+
+#: addon\globalPlugins\HelperScripts.py:284
+msgid "no position"
+msgstr "pozisyon yok"
+
+#: addon\globalPlugins\HelperScripts.py:286
+msgid "Selects or copies the text under the review cursor"
+msgstr "İnceleme imleci altındaki metni seçer veya kopyalar"
+
+#: addon\globalPlugins\HelperScripts.py:292
+msgid "Start marked"
+msgstr "Başlangıç ​​işaretlendi"
+
+#: addon\globalPlugins\HelperScripts.py:322
+msgid "Unable to copy"
+msgstr "Kopyalanamıyor"
+
+#: addon\globalPlugins\HelperScripts.py:326
+msgid "Reports the last value of the progress bar"
+msgstr "İlerleme çubuğunun son değerini bildirir"
+
+#: addon\globalPlugins\HelperScripts.py:330
+msgid "Windows sleep mode"
+msgstr "Windows uyku modu"
+
+#: addon\globalPlugins\HelperScripts.py:335
+msgid "Reports last tooltip"
+msgstr "Son araç ipucunu bildirir"
+
+#: addon\globalPlugins\HelperScripts.py:338
+msgid "No tooltip"
+msgstr "Araç ipucu yok"
+
+#: addon\globalPlugins\HelperScripts.py:342
+msgid "Shows Speech Viewer"
+msgstr "Konuşma görüntüleyiciyi gösterir"
+
+#: addon\globalPlugins\HelperScripts.py:345
+msgid "Speech Viewer"
+msgstr "Konuşma Görüntüleyici"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "A set of simple helper scripts"
+msgstr "Bir dizi basit yardımcı komut"
+
+#~ msgid "Report the selected text"
+#~ msgstr "Сообщает выделенный текст"
