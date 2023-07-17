@@ -19,6 +19,7 @@ import config
 import winUser
 import textInfos
 import gui
+import gui.logViewer
 from controlTypes import Role, State
 from speech import speech
 from scriptHandler import script
